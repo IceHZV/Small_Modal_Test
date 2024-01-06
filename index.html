@@ -1,0 +1,1021 @@
+<DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Начало задачь по css</title>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+      <link type="text/css" rel="stylesheet" href="css/main.css" />
+      <style></style>
+    </head>
+    <body>
+      <div class="centr">
+        <form action="">
+          <ul class="nav1">
+            <li>
+              <div class="dvcol">
+                <a href="#f01">Description&nbsp;</a>
+                <div class="navt"></div>
+                <div class="navb"></div>
+              </div>
+            </li>
+            <li>
+              <div class="dvcol">
+                <a href="#f02">Ingredients&nbsp;</a>
+                <div class="navt"></div>
+                <div class="navb"></div>
+              </div>
+            </li>
+            <li>
+              <div class="dvcol">
+                <a href="#f03">Options&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                <div class="navt"></div>
+                <div class="navb"></div>
+              </div>
+            </li>
+            <li>
+              <div class="dvcol">
+                <a href="#f04">Glasses&nbsp;</a>
+                <div class="navt"></div>
+                <div class="navb"></div>
+              </div>
+            </li>
+          </ul>
+          <fieldset class="field1" id="f01">
+            <div class="bord1 corn">
+              <div class="inblok">
+                <div>
+                  <img src="images/blokobs25X22.png?v01" alt="bloknot" />
+                </div>
+                <div><h3>Description</h3></div>
+              </div>
+
+              <div>
+                <div>
+                  <div class="z1">
+                    <figure>
+                      <img
+                        src="images/kotnindza.jpg"
+                        alt="Example photo of a cocktail"
+                        title="Example photo of a cocktail"
+                        id="image"
+                      />
+                    </figure>
+                    <label class="knopka">
+                      <input
+                        type="file"
+                        accept="image/*"
+                        id="image-upload"
+                        name="select_photo"
+                      />Upload</label
+                    >
+                  </div>
+
+                  <div class="type3">
+                    <div>
+                      <input
+                        type="text"
+                        id="text1"
+                        placeholder="Cocktail name"
+                      />
+                    </div>
+                    <div class="corn2"></div>
+                    <div>
+                      <input
+                        type="text"
+                        id="text2"
+                        placeholder="Alternative name separated by commas"
+                      />
+                    </div>
+                    <div class="corn2 corn3"></div>
+                    <div>
+                      <textarea
+                        name="kr"
+                        placeholder="Short description"
+                      ></textarea>
+                    </div>
+                    <div class="corn2 corn4"></div>
+                  </div>
+
+                  <div class="kr2">
+                    <div>
+                      <textarea
+                        name="kr2"
+                        placeholder="Cooking instructions"
+                      ></textarea>
+                    </div>
+                    <div class="corn2 corn5"></div>
+                  </div>
+                  <div>
+                    <div class="ingr knopka2">
+                      <a href="#f02">Ingredients</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </fieldset>
+
+          <fieldset class="field2" id="f02">
+            <div class="bord1 bord2 corn">
+              <div class="inblok">
+                <div>
+                  <img src="images/butvino17x25.png" alt="Bootle of vine" />
+                </div>
+                <div><h3>Ingredients</h3></div>
+              </div>
+              <div class="col1">
+                <div class="row" id="dis1">
+                  <div>
+                    <select id="naz1" name="naz" disabled>
+                      <option value="Bitter" selected disabled>
+                        Ingredient name
+                      </option>
+                      <option
+                        value="Red"
+                        disabled
+                        style="
+                          font-weight: bold;
+                          color: black;
+                          font-style: italic;
+                        "
+                      >
+                        Soft drinks
+                      </option>
+                      <option value="Old">Water</option>
+                      <option value="Dry">Juice</option>
+                      <option value="Whi">Milk</option>
+                      <option
+                        value="Ap"
+                        disabled
+                        style="
+                          font-weight: bold;
+                          color: black;
+                          font-style: italic;
+                        "
+                      >
+                        Alcoholic drinks
+                      </option>
+                      <option value="N">Vodka</option>
+                      <option value="N">Beer</option>
+                      <option value="N">Gin</option>
+                      <option value="N">Vine</option>
+                      <option value="N">Whiskey</option>
+                      <option value="N">-</option>
+                    </select>
+                  </div>
+                  <div>
+                    <input
+                      id="naz1"
+                      class="innumb"
+                      type="number"
+                      mix="1"
+                      max="1000"
+                      disabled
+                    />
+                  </div>
+                  <div>
+                    <select disabled id="naz1">
+                      <option value="N">ml</option>
+                      <option value="N">gr</option>
+                      <option value="N">kg</option>
+                    </select>
+                  </div>
+                  <div>
+                    <label class="chek1">
+                      <input type="checkbox" id="uk" />
+                      <div class="chek1text1 ck"></div>
+                    </label>
+                  </div>
+                </div>
+
+                <div class="row" id="dis1">
+                  <div>
+                    <select name="naz" disabled>
+                      <option value="Bitter" selected disabled>
+                        Ingredient name
+                      </option>
+                      <option
+                        value="Red"
+                        disabled
+                        style="
+                          font-weight: bold;
+                          color: black;
+                          font-style: italic;
+                        "
+                      >
+                        Soft drinks
+                      </option>
+                      <option value="Old">Water</option>
+                      <option value="Dry">Juice</option>
+                      <option value="Whi">Milk</option>
+                      <option
+                        value="Ap"
+                        disabled
+                        style="
+                          font-weight: bold;
+                          color: black;
+                          font-style: italic;
+                        "
+                      >
+                        Alcoholic drinks
+                      </option>
+                      <option value="N">Vodka</option>
+                      <option value="N">Beer</option>
+                      <option value="N">Gin</option>
+                      <option value="N">Vine</option>
+                      <option value="N">Whiskey</option>
+                      <option value="N">-</option>
+                    </select>
+                  </div>
+                  <div>
+                    <input
+                      class="innumb"
+                      type="number"
+                      mix="1"
+                      max="1000"
+                      disabled
+                    />
+                  </div>
+                  <div>
+                    <select disabled>
+                      <option value="N">ml</option>
+                      <option value="N">gr</option>
+                      <option value="N">kg</option>
+                    </select>
+                  </div>
+                  <div>
+                    <label class="chek1">
+                      <input type="checkbox" id="uk" />
+                      <div class="chek1text1 ck"></div>
+                    </label>
+                  </div>
+                </div>
+
+                <div class="row" id="dis1">
+                  <div>
+                    <select id="naz" name="naz" disabled>
+                      <option value="Ing" selected disabled>
+                        Ingredient name
+                      </option>
+                      <option
+                        value="Soft"
+                        disabled
+                        style="
+                          font-weight: bold;
+                          color: black;
+                          font-style: italic;
+                        "
+                      >
+                        Soft drinks
+                      </option>
+                      <option value="Water">Water</option>
+                      <option value="Juice">Juice</option>
+                      <option value="Milk">Milk</option>
+                      <option
+                        value="Alc"
+                        disabled
+                        style="
+                          font-weight: bold;
+                          color: black;
+                          font-style: italic;
+                        "
+                      >
+                        Alcoholic drinks
+                      </option>
+                      <option value="Vodka">Vodka</option>
+                      <option value="Beer">Beer</option>
+                      <option value="Gin">Gin</option>
+                      <option value="Vine">Vine</option>
+                      <option value="Whis">Whiskey</option>
+                      <option value="N">-</option>
+                    </select>
+                  </div>
+                  <div>
+                    <input
+                      class="innumb"
+                      type="number"
+                      mix="1"
+                      max="1000"
+                      disabled
+                    />
+                  </div>
+                  <div>
+                    <select disabled>
+                      <option value="N">ml</option>
+                      <option value="N">gr</option>
+                      <option value="N">kg</option>
+                    </select>
+                  </div>
+                  <div>
+                    <label class="chek1">
+                      <input type="checkbox" id="uk" />
+                      <div class="chek1text1 ck"></div>
+                    </label>
+                  </div>
+                </div>
+
+                <div class="row" id="dis1">
+                  <div>
+                    <select id="naz" name="naz" disabled>
+                      <option value="Bitter" selected disabled>
+                        Ingredient name
+                      </option>
+                      <option
+                        value="Red"
+                        disabled
+                        style="
+                          font-weight: bold;
+                          color: black;
+                          font-style: italic;
+                        "
+                      >
+                        Soft drinks
+                      </option>
+                      <option value="Old">Water</option>
+                      <option value="Dry">Juice</option>
+                      <option value="Whi">Milk</option>
+                      <option
+                        value="Ap"
+                        disabled
+                        style="
+                          font-weight: bold;
+                          color: black;
+                          font-style: italic;
+                        "
+                      >
+                        Alcoholic drinks
+                      </option>
+                      <option value="N">Vodka</option>
+                      <option value="N">Beer</option>
+                      <option value="N">Gin</option>
+                      <option value="N">Vine</option>
+                      <option value="N">Whiskey</option>
+                      <option value="N">-</option>
+                    </select>
+                  </div>
+                  <div>
+                    <input
+                      class="innumb"
+                      type="number"
+                      mix="1"
+                      max="1000"
+                      disabled
+                    />
+                  </div>
+                  <div>
+                    <select disabled>
+                      <option value="N">ml</option>
+                      <option value="N">gr</option>
+                      <option value="N">kg</option>
+                    </select>
+                  </div>
+                  <div>
+                    <label class="chek1">
+                      <input type="checkbox" id="uk" />
+                      <div class="chek1text1 ck"></div>
+                    </label>
+                  </div>
+                </div>
+
+                <div class="row" id="dis1">
+                  <div>
+                    <select id="naz" name="naz" disabled>
+                      <option value="Bitter" selected disabled>
+                        Ingredient name
+                      </option>
+                      <option
+                        value="Red"
+                        disabled
+                        style="
+                          font-weight: bold;
+                          color: black;
+                          font-style: italic;
+                        "
+                      >
+                        Soft drinks
+                      </option>
+                      <option value="Old">Water</option>
+                      <option value="Dry">Juice</option>
+                      <option value="Whi">Milk</option>
+                      <option
+                        value="Ap"
+                        disabled
+                        style="
+                          font-weight: bold;
+                          color: black;
+                          font-style: italic;
+                        "
+                      >
+                        Alcoholic drinks
+                      </option>
+                      <option value="N">Vodka</option>
+                      <option value="N">Beer</option>
+                      <option value="N">Gin</option>
+                      <option value="N">Vine</option>
+                      <option value="N">Whiskey</option>
+                      <option value="N">-</option>
+                    </select>
+                  </div>
+                  <div>
+                    <input
+                      class="innumb"
+                      type="number"
+                      mix="1"
+                      max="1000"
+                      disabled
+                    />
+                  </div>
+                  <div>
+                    <select disabled>
+                      <option value="N">ml</option>
+                      <option value="N">gr</option>
+                      <option value="N">kg</option>
+                    </select>
+                  </div>
+                  <div>
+                    <label class="chek1">
+                      <input type="checkbox" id="uk" />
+                      <div class="chek1text1 ck"></div>
+                    </label>
+                  </div>
+                </div>
+
+                <div class="row" id="dis1">
+                  <div>
+                    <select id="naz" name="naz" disabled>
+                      <option value="Bitter" selected disabled>
+                        Ingredient name
+                      </option>
+                      <option
+                        value="Red"
+                        disabled
+                        style="
+                          font-weight: bold;
+                          color: black;
+                          font-style: italic;
+                        "
+                      >
+                        Soft drinks
+                      </option>
+                      <option value="Old">Water</option>
+                      <option value="Dry">Juice</option>
+                      <option value="Whi">Milk</option>
+                      <option
+                        value="Ap"
+                        disabled
+                        style="
+                          font-weight: bold;
+                          color: black;
+                          font-style: italic;
+                        "
+                      >
+                        Alcoholic drinks
+                      </option>
+                      <option value="N">Vodka</option>
+                      <option value="N">Beer</option>
+                      <option value="N">Gin</option>
+                      <option value="N">Vine</option>
+                      <option value="N">Whiskey</option>
+                      <option value="N">-</option>
+                    </select>
+                  </div>
+                  <div>
+                    <input
+                      class="innumb"
+                      type="number"
+                      mix="1"
+                      max="1000"
+                      disabled
+                    />
+                  </div>
+                  <div>
+                    <select disabled>
+                      <option value="N">ml</option>
+                      <option value="N">gr</option>
+                      <option value="N">kg</option>
+                    </select>
+                  </div>
+                  <div>
+                    <label class="chek1">
+                      <input type="checkbox" id="uk" />
+                      <div class="chek1text1 ck"></div>
+                    </label>
+                  </div>
+                </div>
+                <div class="row" id="dis1">
+                  <div>
+                    <select id="naz" name="naz" disabled>
+                      <option value="Bitter" selected disabled>
+                        Ingredient name
+                      </option>
+                      <option
+                        value="Red"
+                        disabled
+                        style="
+                          font-weight: bold;
+                          color: black;
+                          font-style: italic;
+                        "
+                      >
+                        Soft drinks
+                      </option>
+                      <option value="Old">Water</option>
+                      <option value="Dry">Juice</option>
+                      <option value="Whi">Milk</option>
+                      <option
+                        value="Ap"
+                        disabled
+                        style="
+                          font-weight: bold;
+                          color: black;
+                          font-style: italic;
+                        "
+                      >
+                        Alcoholic drinks
+                      </option>
+                      <option value="N">Vodka</option>
+                      <option value="N">Beer</option>
+                      <option value="N">Gin</option>
+                      <option value="N">Vine</option>
+                      <option value="N">Whiskey</option>
+                      <option value="N">-</option>
+                    </select>
+                  </div>
+                  <div>
+                    <input
+                      class="innumb"
+                      type="number"
+                      mix="1"
+                      max="1000"
+                      disabled
+                    />
+                  </div>
+                  <div>
+                    <select disabled>
+                      <option value="N">ml</option>
+                      <option value="N">gr</option>
+                      <option value="N">kg</option>
+                    </select>
+                  </div>
+                  <div>
+                    <label class="chek1">
+                      <input type="checkbox" id="uk" />
+                      <div class="chek1text1 ck"></div>
+                    </label>
+                  </div>
+                </div>
+                <div class="row" id="dis1">
+                  <div>
+                    <select id="naz" name="naz" disabled>
+                      <option value="Bitter" selected disabled>
+                        Ingredient name
+                      </option>
+                      <option
+                        value="Red"
+                        disabled
+                        style="
+                          font-weight: bold;
+                          color: black;
+                          font-style: italic;
+                        "
+                      >
+                        Soft drinks
+                      </option>
+                      <option value="Old">Water</option>
+                      <option value="Dry">Juice</option>
+                      <option value="Whi">Milk</option>
+                      <option
+                        value="Ap"
+                        disabled
+                        style="
+                          font-weight: bold;
+                          color: black;
+                          font-style: italic;
+                        "
+                      >
+                        Alcoholic drinks
+                      </option>
+                      <option value="N">Vodka</option>
+                      <option value="N">Beer</option>
+                      <option value="N">Gin</option>
+                      <option value="N">Vine</option>
+                      <option value="N">Whiskey</option>
+                      <option value="N">-</option>
+                    </select>
+                  </div>
+                  <div>
+                    <input
+                      class="innumb"
+                      type="number"
+                      mix="1"
+                      max="1000"
+                      disabled
+                    />
+                  </div>
+                  <div>
+                    <select disabled>
+                      <option value="N">ml</option>
+                      <option value="N">gr</option>
+                      <option value="N">kg</option>
+                    </select>
+                  </div>
+                  <div>
+                    <label class="chek1">
+                      <input type="checkbox" id="uk" />
+                      <div class="chek1text1 ck"></div>
+                    </label>
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <div class="ingr2 knopka2"><a href="#f03">Options</a></div>
+              </div>
+              <div>
+                <div class="ingr3 knopka3"><a href="#f01">Description</a></div>
+              </div>
+            </div>
+          </fieldset>
+
+          <fieldset class="field3" id="f03">
+            <div class="bord1 bord3 corn">
+              <div class="inblok">
+                <div><img src="images/tarelka34x27.png" alt="tarelka" /></div>
+                <div><h3>Cooking parameters</h3></div>
+              </div>
+
+              <div class="row1">
+                <div>
+                  <label>Portions</label>
+                  <input
+                    class="innumb"
+                    type="number"
+                    mix="1"
+                    max="100"
+                    disabled
+                  />
+                </div>
+                <div>
+                  <label>Time</label>
+                  <select>
+                    <option value="N1">5 min</option>
+                    <option value="N2">10 min</option>
+                    <option value="N3">15 min</option>
+                  </select>
+                </div>
+                <div>
+                  <label>Difficulty</label>
+                  <select>
+                    <option value="list" selected disabled>
+                      Select from list
+                    </option>
+                    <option value="Simple">Simple</option>
+                    <option value="Med">Medium</option>
+                    <option value="Dif">Difficult</option>
+                  </select>
+                </div>
+                <div>
+                  <label>Method</label>
+                  <select>
+                    <option value="list" selected disabled>
+                      Select from list
+                    </option>
+                    <option value="shaker">In a shaker</option>
+                    <option value="blender">In a blender</option>
+                    <option value="glass">In a glass</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="inblok">
+                <div><img src="images/koktelj17x28.png" alt="cocktail" /></div>
+                <div><h3>Cocktail type</h3></div>
+              </div>
+
+              <div class="row1">
+                <div>
+                  <label>By strength</label>
+                  <select>
+                    <option value="list" selected disabled>
+                      Select from list
+                    </option>
+                    <option value="Nalc">Non-alcoholic</option>
+                    <option value="Lalc">Low alcohol</option>
+                    <option value="Semi">Semi-strong (16-22%)</option>
+                    <option value="Strong">Strong (more 22%)</option>
+                  </select>
+                </div>
+                <div>
+                  <label>Based on</label>
+                  <select>
+                    <option value="list" selected disabled>
+                      Select from list
+                    </option>
+                    <option value="Absinthe">Absinthe</option>
+                    <option value="Vodka">Vodka</option>
+                    <option value="Gin">Gin</option>
+                    <option value="Brandy">Brandy</option>
+                    <option value="Liqueur">Liqueur</option>
+                    <option value="Calvados">Calvados</option>
+                    <option value="Tequila">Tequila</option>
+                    <option value="Rum">Rum</option>
+                    <option value="Beer">Beer</option>
+                    <option value="Wine">Wine</option>
+                    <option value="Cognac">Cognac</option>
+                    <option value="Tea">Tea</option>
+                    <option value="Coffee">Coffee</option>
+                    <option value="Juice">Juice</option>
+                  </select>
+                </div>
+                <div>
+                  <label>Type</label>
+                  <select>
+                    <option value="list" selected disabled>
+                      Select from list
+                    </option>
+                    <option value="Aperitifs">Aperitifs</option>
+                    <option value="Hot">Hot</option>
+                    <option value="Dairy">Dairy</option>
+                    <option value="Layered">Layered</option>
+                    <option value="Daisy">Daisy</option>
+                    <option value="Juleps">Juleps</option>
+                    <option value="Cardinals">Cardinals</option>
+                    <option value="Cobblers">Cobblers</option>
+                    <option value="Collins">Collins</option>
+                    <option value="Fixes">Fixes</option>
+                    <option value="Sours">Sours</option>
+                  </select>
+                </div>
+              </div>
+              <div class="inblok">
+                <div><img src="images/teg20x19.png" alt="Teg" /></div>
+                <div><h3>Tags</h3></div>
+              </div>
+
+              <div class="row3">
+                <div>
+                  <div class="row2">
+                    <label class="chek1 row2">
+                      <input type="checkbox" value="g1" />
+                      <div class="chek1text1 ck"></div>
+                      <div>Invigorating</div>
+                    </label>
+                  </div>
+                  <div class="row2">
+                    <label class="chek1 row2">
+                      <input type="checkbox" value="g2" />
+                      <div class="chek1text1 ck"></div>
+                      <div>Bitter</div>
+                    </label>
+                  </div>
+                  <div class="row2">
+                    <label class="chek1 row2">
+                      <input type="checkbox" value="g3" />
+                      <div class="chek1text1 ck"></div>
+                      <div>Sour</div>
+                    </label>
+                  </div>
+                  <div class="row2">
+                    <label class="chek1 row2">
+                      <input type="checkbox" value="g4" />
+                      <div class="chek1text1 ck"></div>
+                      <div>Sweet</div>
+                    </label>
+                  </div>
+                </div>
+
+                <div>
+                  <div class="row2">
+                    <label class="chek1 row2">
+                      <input type="checkbox" value="g5" />
+                      <div class="chek1text1 ck"></div>
+                      <div>Salty</div>
+                    </label>
+                  </div>
+                  <div class="row2">
+                    <label class="chek1 row2">
+                      <input type="checkbox" value="g6" />
+                      <div class="chek1text1 ck"></div>
+                      <div>Herbal</div>
+                    </label>
+                  </div>
+                  <div class="row2">
+                    <label class="chek1 row2">
+                      <input type="checkbox" value="g7" />
+                      <div class="chek1text1 ck"></div>
+                      <div>Tropical</div>
+                    </label>
+                  </div>
+                  <div class="row2">
+                    <label class="chek1 row2">
+                      <input type="checkbox" value="g8" />
+                      <div class="chek1text1 ck"></div>
+                      <div>Fruity</div>
+                    </label>
+                  </div>
+                </div>
+
+                <div>
+                  <div class="row2">
+                    <label class="chek1 row2">
+                      <input type="checkbox" value="g9" />
+                      <div class="chek1text1 ck"></div>
+                      <div>Unusual use</div>
+                    </label>
+                  </div>
+                  <div class="row2">
+                    <label class="chek1 row2">
+                      <input type="checkbox" value="g10" />
+                      <div class="chek1text1 ck"></div>
+                      <div>For company</div>
+                    </label>
+                  </div>
+                  <div class="row2">
+                    <label class="chek1 row2">
+                      <input type="checkbox" value="g11" />
+                      <div class="chek1text1 ck"></div>
+                      <div>For friends</div>
+                    </label>
+                  </div>
+                  <div class="row2">
+                    <label class="chek1 row2">
+                      <input type="checkbox" value="g12" />
+                      <div class="chek1text1 ck"></div>
+                      <div>For enemies</div>
+                    </label>
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <div class="ingr4 knopka2"><a href="#f04">Glasses</a></div>
+              </div>
+              <div>
+                <div class="ingr5 knopka3"><a href="#f02">Ingredients</a></div>
+              </div>
+            </div>
+          </fieldset>
+
+          <fieldset class="field4" id="f04">
+            <div class="bord1 bord4 corn">
+              <div class="inblok">
+                <div><img src="images/bokbel11x25.png" alt="Glasse" /></div>
+                <div><h3>Glasses</h3></div>
+              </div>
+
+              <div class="col2">
+                <div class="row4">
+                  <div>
+                    <label class="chek2">
+                      <input type="checkbox" value="b1" />
+                      <div class="chek2text1 ck2">
+                        <span class="title1">White wine glass</span>
+                      </div>
+                    </label>
+                  </div>
+                  <div>
+                    <label class="chek2">
+                      <input type="checkbox" value="b2" />
+                      <div class="chek2text1 chek3text1 ck2">
+                        <span class="title1">Red wine glass</span>
+                      </div>
+                    </label>
+                  </div>
+                  <div>
+                    <label class="chek2">
+                      <input type="checkbox" value="b3" />
+                      <div class="chek2text1 chek4text1 ck2">
+                        <span class="title1">Glass for layered cocktails</span>
+                      </div>
+                    </label>
+                  </div>
+                  <div>
+                    <label class="chek2">
+                      <input type="checkbox" value="b4" />
+                      <div class="chek2text1 chek5text1 ck2">
+                        <span class="title1">Sour cocktail glass</span>
+                      </div>
+                    </label>
+                  </div>
+                </div>
+                <div class="row4">
+                  <div>
+                    <label class="chek2">
+                      <input type="checkbox" value="b5" />
+                      <div class="chek2text1 chek6text1 ck2">
+                        <span class="title1">Glass for tropical cocktails</span>
+                      </div>
+                    </label>
+                  </div>
+                  <div>
+                    <label class="chek2">
+                      <input type="checkbox" value="b6" />
+                      <div class="chek2text1 chek7text1 ck2">
+                        <span class="title1">Whiskey glass</span>
+                      </div>
+                    </label>
+                  </div>
+                  <div>
+                    <label class="chek2">
+                      <input type="checkbox" value="b7" />
+                      <div class="chek2text1 chek8text1 ck2">
+                        <span class="title1">Glass for hot cocktails</span>
+                      </div>
+                    </label>
+                  </div>
+                  <div>
+                    <label class="chek2">
+                      <input type="checkbox" value="b8" />
+                      <div class="chek2text1 chek9text1 ck2">
+                        <span class="title1">Martini glass</span>
+                      </div>
+                    </label>
+                  </div>
+                </div>
+                <div class="row4">
+                  <div>
+                    <label class="chek2">
+                      <input type="checkbox" value="b9" />
+                      <div class="chek2text1 chek10text1 ck2">
+                        <span class="title1">Glass for long drinks</span>
+                      </div>
+                    </label>
+                  </div>
+                  <div>
+                    <label class="chek2">
+                      <input type="checkbox" value="b10" />
+                      <div class="chek2text1 chek11text1 ck2">
+                        <span class="title1">Cognac glass</span>
+                      </div>
+                    </label>
+                  </div>
+                  <div>
+                    <label class="chek2">
+                      <input type="checkbox" value="b11" />
+                      <div class="chek2text1 chek12text1 ck2">
+                        <span class="title1">Margarita glass</span>
+                      </div>
+                    </label>
+                  </div>
+                  <div>
+                    <label class="chek2">
+                      <input type="checkbox" value="b12" />
+                      <div class="chek2text1 chek13text1 ck2">
+                        <span class="title1">Beer glass</span>
+                      </div>
+                    </label>
+                  </div>
+                </div>
+                <div class="row4">
+                  <div>
+                    <label class="chek2">
+                      <input type="checkbox" value="b13" />
+                      <div class="chek2text1 chek14text1 ck2">
+                        <span class="title1">Armagnac cognac glass</span>
+                      </div>
+                    </label>
+                  </div>
+                  <div>
+                    <label class="chek2">
+                      <input type="checkbox" value="b14" />
+                      <div class="chek2text1 chek15text1 ck2">
+                        <span class="title1">Drink glass with ice</span>
+                      </div>
+                    </label>
+                  </div>
+                  <div>
+                    <label class="chek2">
+                      <input type="checkbox" value="b15" />
+                      <div class="chek2text1 chek16text1 ck2">
+                        <span class="title1"
+                          >Glass for champagne and sparkling wines</span
+                        >
+                      </div>
+                    </label>
+                  </div>
+                  <div>
+                    <label class="chek2">
+                      <input type="checkbox" value="b16" />
+                      <div class="chek2text1 chek17text1 ck2">
+                        <span class="title1">Shot glass</span>
+                      </div>
+                    </label>
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <div class="ingr6 knopka3"><a href="#f03">Options</a></div>
+              </div>
+              <div>
+                <input type="submit" value="Submit" />
+              </div>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+
+      <script type="text/javascript" src="js/jskok.js?v01"></script>
+    </body></html
+></DOCTYPE>
